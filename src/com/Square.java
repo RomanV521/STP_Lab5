@@ -52,9 +52,9 @@ public class Square {
     @Override
     public String toString() {
         return "\n" +
-                "\tSide=" + side +
-                "\tPerimetr = " + GetPerimetr() +
-                "\tDiagonale = " + GetDiagonale() +
-                "\tSquare = " + GetSquare();
+                "\tSide = " + Correction.formatDouble(side) +
+                "\tPerimetr = " + Correction.formatDouble(GetPerimetr()) +
+                "\tDiagonale = " + Correction.formatDouble(GetDiagonale()) +
+                "\tSquare = " + Correction.formatDouble(GetSquare());
     }
 }

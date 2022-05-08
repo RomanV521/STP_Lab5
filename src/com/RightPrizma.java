@@ -51,10 +51,10 @@ public class RightPrizma extends Square {
     @Override
     public String toString() {
         return "\n" +
-                "\tSide = " + side +
-                "\tHeight = " + height +
-                "\tVolume = " + GetVolume() +
-                "\tSquare Prizm = " + GetSquare() +
-                "\tDiagonale Prizm = " + GetDiagonalePrizma();
+                "\tSide = " + Correction.formatDouble(side) +
+                "\tHeight = " + Correction.formatDouble(height) +
+                "\tVolume = " + Correction.formatDouble(GetVolume()) +
+                "\tSquare Prizm = " + Correction.formatDouble(GetSquare()) +
+                "\tDiagonale Prizm = " + Correction.formatDouble(GetDiagonalePrizma());
     }
 }
